@@ -30,10 +30,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'BitarLogger/Classes/**/*'
+  s.source_files = 'BitarLogger/BitarLogger/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'BitarLogger' => ['BitarLogger/Assets/*.png']
+  #   'BitarLogger' => ['BitarLogger/BitarLogger/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
