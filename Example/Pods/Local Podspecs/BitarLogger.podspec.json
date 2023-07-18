@@ -1,0 +1,22 @@
+{
+  "name": "BitarLogger",
+  "version": "0.1.0",
+  "summary": "A short description of BitarLogger.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/18489523/BitarLogger",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "18489523": "eng.mhd.bitar@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/18489523/BitarLogger.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "BitarLogger/Classes/**/*"
+}

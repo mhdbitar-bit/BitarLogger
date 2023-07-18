@@ -1,0 +1,6 @@
+framework module BitarLogger {
+  umbrella header "BitarLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

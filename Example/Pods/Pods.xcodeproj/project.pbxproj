@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2087174559F4997684F7F91BF6A61EE0 /* Pods-BitarLogger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9EF2E3870DDBBA4F17388A5FACFE89 /* Pods-BitarLogger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		306C8EDF41706B1E366B9A45C965032F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		38A8B72BEA68D81D74D1035159A8A5B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4C47D1B02A6677170003D765 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C47D1AF2A6677170003D765 /* Logger.swift */; };
+		4EEB090657EA6231996702E251E6B9CC /* BitarLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8AEDCE60D6DEE097FC202BDEE1D8E0 /* BitarLogger-dummy.m */; };
+		798891A5EE5C22A42217E92C0732AB82 /* Pods-BitarLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F58EAD18983C85034B6676182BB8B67 /* Pods-BitarLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D80ECBE9788C1AC2772B2962901C85A /* BitarLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4CE5BC8BD77F50422023EB33828C7A /* BitarLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA82A984673B6F9367598071C0226CFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C773614E8EFA6DEC2CCD00B40CCC7561 /* Pods-BitarLogger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF71E7A7F4D643F58C457999D46A239 /* Pods-BitarLogger_Example-dummy.m */; };
+		F6AEE17197FF98E0C51604811315E73C /* Pods-BitarLogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA14C40A5A24B4B1AAD56053CDCC432 /* Pods-BitarLogger_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1E732530E3BC4AE3B7B6426594D9E91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DE640D2D885AF3C2FA378AC50311DA8;
+			remoteInfo = BitarLogger;
+		};
+		ECB0C276B6DD50FFD6C0D080A6451466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBA74CBBE60DDFCAFF86C67CA4C93C97;
+			remoteInfo = "Pods-BitarLogger_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06C295E657B65ED29FF60FC77D24AA6C /* BitarLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BitarLogger-prefix.pch"; sourceTree = "<group>"; };
+		0D8AEDCE60D6DEE097FC202BDEE1D8E0 /* BitarLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BitarLogger-dummy.m"; sourceTree = "<group>"; };
+		119C9A2C98C2202E1079DE4D2BC7407B /* BitarLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BitarLogger.debug.xcconfig; sourceTree = "<group>"; };
+		1B66C1719277E302DC0FCC69DBD4219E /* Pods-BitarLogger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BitarLogger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		372CA0D88050489212C9ED209249F507 /* Pods-BitarLogger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BitarLogger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4484910636886F127FB64CC1FFDE4484 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		49107A76BA7923DE641BC6716E035D4E /* Pods-BitarLogger_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BitarLogger_Tests"; path = Pods_BitarLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C205174B1EB4FA874B323E686DD3AE7 /* Pods-BitarLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitarLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4C47D1AF2A6677170003D765 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		4DD0754FF6EBA83B34378321553F65EB /* Pods-BitarLogger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BitarLogger_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4ED0FC2653EFE5B166C6A6BD80B20464 /* BitarLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BitarLogger.release.xcconfig; sourceTree = "<group>"; };
+		5EC671C4C377CC415C515B4F347EA3BB /* Pods-BitarLogger_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BitarLogger_Example"; path = Pods_BitarLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F58EAD18983C85034B6676182BB8B67 /* Pods-BitarLogger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BitarLogger_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5F9EF2E3870DDBBA4F17388A5FACFE89 /* Pods-BitarLogger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BitarLogger_Example-umbrella.h"; sourceTree = "<group>"; };
+		63B313FF0449B3636C5567D8E7FFE2BD /* Pods-BitarLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BitarLogger_Tests.modulemap"; sourceTree = "<group>"; };
+		6801E0DA08824634A60E423EC79D27A2 /* Pods-BitarLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitarLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6DA14C40A5A24B4B1AAD56053CDCC432 /* Pods-BitarLogger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BitarLogger_Tests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7333177B14106499CAF8EA3BB59357D8 /* BitarLogger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BitarLogger-Info.plist"; sourceTree = "<group>"; };
+		7DF71E7A7F4D643F58C457999D46A239 /* Pods-BitarLogger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BitarLogger_Example-dummy.m"; sourceTree = "<group>"; };
+		93C3CF23F9C5EB924C14D6E60BDC4E03 /* Pods-BitarLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitarLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9ADD974514EAD36E4BF2C76BAC41C4B1 /* Pods-BitarLogger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BitarLogger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A10AC6A0CCBDFD59BFDA2530FFF14BEB /* BitarLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BitarLogger.modulemap; sourceTree = "<group>"; };
+		A529D029E2D9D19C946909E17D104568 /* BitarLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BitarLogger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A620DF5DBB5158BAB3A6A404E8E3B2C0 /* Pods-BitarLogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BitarLogger_Example.modulemap"; sourceTree = "<group>"; };
+		BE4CE5BC8BD77F50422023EB33828C7A /* BitarLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BitarLogger-umbrella.h"; sourceTree = "<group>"; };
+		D3A420F6905D7297FA9D4D0978031644 /* BitarLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BitarLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D445BF89A29C2C403DD5AF00383D7754 /* Pods-BitarLogger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BitarLogger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DAEA04E80B03DE421ED15222DFDC64FA /* Pods-BitarLogger_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BitarLogger_Tests-Info.plist"; sourceTree = "<group>"; };
+		E1C05A455C5B86417E6C2A1475BB4479 /* Pods-BitarLogger_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BitarLogger_Example-Info.plist"; sourceTree = "<group>"; };
+		F7C61705F71D4B610B12FE04F002BEFF /* Pods-BitarLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitarLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FCE902A55C6A2C24753A1FA8AAB25AFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C09CDD89BE631F1B0BAE0C4FA8EB4E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A8B72BEA68D81D74D1035159A8A5B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56AF5DA236DC03603BAF22CE6A48B1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306C8EDF41706B1E366B9A45C965032F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6C0BCBA8D9AD477A2DA9A2D3FE8B537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA82A984673B6F9367598071C0226CFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21B33DA30DB51930D6660C0F983180C5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEB2861052E98056008320DBCEA3A844 /* Pods-BitarLogger_Example */,
+				8080EE8C18C580D1ADD9DA29BC752C2E /* Pods-BitarLogger_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		44F236086F114EA28E2FB4C7D916BC73 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AE655265F72D82B18835333029463AC /* BitarLogger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6AE655265F72D82B18835333029463AC /* BitarLogger */ = {
+			isa = PBXGroup;
+			children = (
+				AF6884D204C57B350814C60C5A5F92B9 /* Pod */,
+				9C3F6ADAEEC68CA1C37C39309EB3D1C7 /* Support Files */,
+				4C47D1AF2A6677170003D765 /* Logger.swift */,
+			);
+			name = BitarLogger;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8080EE8C18C580D1ADD9DA29BC752C2E /* Pods-BitarLogger_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				63B313FF0449B3636C5567D8E7FFE2BD /* Pods-BitarLogger_Tests.modulemap */,
+				372CA0D88050489212C9ED209249F507 /* Pods-BitarLogger_Tests-acknowledgements.markdown */,
+				1B66C1719277E302DC0FCC69DBD4219E /* Pods-BitarLogger_Tests-acknowledgements.plist */,
+				6DA14C40A5A24B4B1AAD56053CDCC432 /* Pods-BitarLogger_Tests-dummy.m */,
+				DAEA04E80B03DE421ED15222DFDC64FA /* Pods-BitarLogger_Tests-Info.plist */,
+				5F58EAD18983C85034B6676182BB8B67 /* Pods-BitarLogger_Tests-umbrella.h */,
+				93C3CF23F9C5EB924C14D6E60BDC4E03 /* Pods-BitarLogger_Tests.debug.xcconfig */,
+				6801E0DA08824634A60E423EC79D27A2 /* Pods-BitarLogger_Tests.release.xcconfig */,
+			);
+			name = "Pods-BitarLogger_Tests";
+			path = "Target Support Files/Pods-BitarLogger_Tests";
+			sourceTree = "<group>";
+		};
+		97748B75AB7762FE0C4E858F8DE091AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3A420F6905D7297FA9D4D0978031644 /* BitarLogger.framework */,
+				5EC671C4C377CC415C515B4F347EA3BB /* Pods-BitarLogger_Example */,
+				49107A76BA7923DE641BC6716E035D4E /* Pods-BitarLogger_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C3F6ADAEEC68CA1C37C39309EB3D1C7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A10AC6A0CCBDFD59BFDA2530FFF14BEB /* BitarLogger.modulemap */,
+				0D8AEDCE60D6DEE097FC202BDEE1D8E0 /* BitarLogger-dummy.m */,
+				7333177B14106499CAF8EA3BB59357D8 /* BitarLogger-Info.plist */,
+				06C295E657B65ED29FF60FC77D24AA6C /* BitarLogger-prefix.pch */,
+				BE4CE5BC8BD77F50422023EB33828C7A /* BitarLogger-umbrella.h */,
+				119C9A2C98C2202E1079DE4D2BC7407B /* BitarLogger.debug.xcconfig */,
+				4ED0FC2653EFE5B166C6A6BD80B20464 /* BitarLogger.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BitarLogger";
+			sourceTree = "<group>";
+		};
+		AF6884D204C57B350814C60C5A5F92B9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A529D029E2D9D19C946909E17D104568 /* BitarLogger.podspec */,
+				FCE902A55C6A2C24753A1FA8AAB25AFC /* LICENSE */,
+				4484910636886F127FB64CC1FFDE4484 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BEB2861052E98056008320DBCEA3A844 /* Pods-BitarLogger_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A620DF5DBB5158BAB3A6A404E8E3B2C0 /* Pods-BitarLogger_Example.modulemap */,
+				D445BF89A29C2C403DD5AF00383D7754 /* Pods-BitarLogger_Example-acknowledgements.markdown */,
+				9ADD974514EAD36E4BF2C76BAC41C4B1 /* Pods-BitarLogger_Example-acknowledgements.plist */,
+				7DF71E7A7F4D643F58C457999D46A239 /* Pods-BitarLogger_Example-dummy.m */,
+				4DD0754FF6EBA83B34378321553F65EB /* Pods-BitarLogger_Example-frameworks.sh */,
+				E1C05A455C5B86417E6C2A1475BB4479 /* Pods-BitarLogger_Example-Info.plist */,
+				5F9EF2E3870DDBBA4F17388A5FACFE89 /* Pods-BitarLogger_Example-umbrella.h */,
+				F7C61705F71D4B610B12FE04F002BEFF /* Pods-BitarLogger_Example.debug.xcconfig */,
+				4C205174B1EB4FA874B323E686DD3AE7 /* Pods-BitarLogger_Example.release.xcconfig */,
+			);
+			name = "Pods-BitarLogger_Example";
+			path = "Target Support Files/Pods-BitarLogger_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				44F236086F114EA28E2FB4C7D916BC73 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				97748B75AB7762FE0C4E858F8DE091AE /* Products */,
+				21B33DA30DB51930D6660C0F983180C5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6905AC6D9F99E07402585F5A46D9C088 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D80ECBE9788C1AC2772B2962901C85A /* BitarLogger-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA0E0A9FCD292E1BF63B80A2D763BB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798891A5EE5C22A42217E92C0732AB82 /* Pods-BitarLogger_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9793EEE44F39EDF72C2ED9FF614209AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2087174559F4997684F7F91BF6A61EE0 /* Pods-BitarLogger_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1DE640D2D885AF3C2FA378AC50311DA8 /* BitarLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE200D3950B92F5927AD3AB19DBE1E1 /* Build configuration list for PBXNativeTarget "BitarLogger" */;
+			buildPhases = (
+				6905AC6D9F99E07402585F5A46D9C088 /* Headers */,
+				B4C0DFBD1751F4DABC335FBE662DC2AC /* Sources */,
+				1C09CDD89BE631F1B0BAE0C4FA8EB4E5 /* Frameworks */,
+				831E5D1B57417E6BC83F1D9363E2DD37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitarLogger;
+			productName = BitarLogger;
+			productReference = D3A420F6905D7297FA9D4D0978031644 /* BitarLogger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DFBD6D03A11C99862E6510A0B542133E /* Pods-BitarLogger_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3064D36CF6F7351D3609D4E80BB32BA2 /* Build configuration list for PBXNativeTarget "Pods-BitarLogger_Tests" */;
+			buildPhases = (
+				8DA0E0A9FCD292E1BF63B80A2D763BB2 /* Headers */,
+				D0B1E9CDED795401A70309C308EA60BC /* Sources */,
+				F6C0BCBA8D9AD477A2DA9A2D3FE8B537 /* Frameworks */,
+				F10F276D8731422D5EAA32BDC0E6C107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0626088F090E3355B04D67B457A0C9BF /* PBXTargetDependency */,
+			);
+			name = "Pods-BitarLogger_Tests";
+			productName = Pods_BitarLogger_Tests;
+			productReference = 49107A76BA7923DE641BC6716E035D4E /* Pods-BitarLogger_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBA74CBBE60DDFCAFF86C67CA4C93C97 /* Pods-BitarLogger_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6670F79B0D5B0E656167175BBAD8B65 /* Build configuration list for PBXNativeTarget "Pods-BitarLogger_Example" */;
+			buildPhases = (
+				9793EEE44F39EDF72C2ED9FF614209AE /* Headers */,
+				49687F6404D3D509D1D0BD164BE93EAD /* Sources */,
+				F56AF5DA236DC03603BAF22CE6A48B1E /* Frameworks */,
+				2D408B396AF816E766E596B189E91D29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6551549A4310F1729DD89EF61DDC9852 /* PBXTargetDependency */,
+			);
+			name = "Pods-BitarLogger_Example";
+			productName = Pods_BitarLogger_Example;
+			productReference = 5EC671C4C377CC415C515B4F347EA3BB /* Pods-BitarLogger_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					1DE640D2D885AF3C2FA378AC50311DA8 = {
+						LastSwiftMigration = 1430;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 97748B75AB7762FE0C4E858F8DE091AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DE640D2D885AF3C2FA378AC50311DA8 /* BitarLogger */,
+				FBA74CBBE60DDFCAFF86C67CA4C93C97 /* Pods-BitarLogger_Example */,
+				DFBD6D03A11C99862E6510A0B542133E /* Pods-BitarLogger_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D408B396AF816E766E596B189E91D29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831E5D1B57417E6BC83F1D9363E2DD37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10F276D8731422D5EAA32BDC0E6C107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49687F6404D3D509D1D0BD164BE93EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C773614E8EFA6DEC2CCD00B40CCC7561 /* Pods-BitarLogger_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4C0DFBD1751F4DABC335FBE662DC2AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEB090657EA6231996702E251E6B9CC /* BitarLogger-dummy.m in Sources */,
+				4C47D1B02A6677170003D765 /* Logger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B1E9CDED795401A70309C308EA60BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6AEE17197FF98E0C51604811315E73C /* Pods-BitarLogger_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0626088F090E3355B04D67B457A0C9BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BitarLogger_Example";
+			target = FBA74CBBE60DDFCAFF86C67CA4C93C97 /* Pods-BitarLogger_Example */;
+			targetProxy = ECB0C276B6DD50FFD6C0D080A6451466 /* PBXContainerItemProxy */;
+		};
+		6551549A4310F1729DD89EF61DDC9852 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BitarLogger;
+			target = 1DE640D2D885AF3C2FA378AC50311DA8 /* BitarLogger */;
+			targetProxy = D1E732530E3BC4AE3B7B6426594D9E91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		62A0A963803D9CC7E307917F5353915F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C205174B1EB4FA874B323E686DD3AE7 /* Pods-BitarLogger_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BitarLogger_Example/Pods-BitarLogger_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BitarLogger_Example/Pods-BitarLogger_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C0C0D70DE15D134328F4378E245AD7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6801E0DA08824634A60E423EC79D27A2 /* Pods-BitarLogger_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BitarLogger_Tests/Pods-BitarLogger_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BitarLogger_Tests/Pods-BitarLogger_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9E26F5930C2D6E4350301B7FAAFBD672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 119C9A2C98C2202E1079DE4D2BC7407B /* BitarLogger.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BitarLogger/BitarLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BitarLogger/BitarLogger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BitarLogger/BitarLogger.modulemap";
+				PRODUCT_MODULE_NAME = BitarLogger;
+				PRODUCT_NAME = BitarLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C29473D928BDC3BC1214F27F892F3BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ED0FC2653EFE5B166C6A6BD80B20464 /* BitarLogger.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BitarLogger/BitarLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BitarLogger/BitarLogger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BitarLogger/BitarLogger.modulemap";
+				PRODUCT_MODULE_NAME = BitarLogger;
+				PRODUCT_NAME = BitarLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E4DD648A54D31747B2C51C55F00C2BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C61705F71D4B610B12FE04F002BEFF /* Pods-BitarLogger_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BitarLogger_Example/Pods-BitarLogger_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BitarLogger_Example/Pods-BitarLogger_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EB663F676B1BE9CB6EF59319CC3880EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93C3CF23F9C5EB924C14D6E60BDC4E03 /* Pods-BitarLogger_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BitarLogger_Tests/Pods-BitarLogger_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BitarLogger_Tests/Pods-BitarLogger_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3064D36CF6F7351D3609D4E80BB32BA2 /* Build configuration list for PBXNativeTarget "Pods-BitarLogger_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB663F676B1BE9CB6EF59319CC3880EB /* Debug */,
+				6C0C0D70DE15D134328F4378E245AD7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACE200D3950B92F5927AD3AB19DBE1E1 /* Build configuration list for PBXNativeTarget "BitarLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E26F5930C2D6E4350301B7FAAFBD672 /* Debug */,
+				C29473D928BDC3BC1214F27F892F3BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6670F79B0D5B0E656167175BBAD8B65 /* Build configuration list for PBXNativeTarget "Pods-BitarLogger_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4DD648A54D31747B2C51C55F00C2BE9 /* Debug */,
+				62A0A963803D9CC7E307917F5353915F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

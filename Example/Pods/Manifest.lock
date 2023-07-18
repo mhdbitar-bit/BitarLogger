@@ -1,0 +1,16 @@
+PODS:
+  - BitarLogger (0.1.0)
+
+DEPENDENCIES:
+  - BitarLogger (from `../`)
+
+EXTERNAL SOURCES:
+  BitarLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BitarLogger: f05cd2e61609e27bd2cef6db600a4ed5e616c3c7
+
+PODFILE CHECKSUM: d40a0aea4516099ac1b67535982a4973026b5dd5
+
+COCOAPODS: 1.12.1

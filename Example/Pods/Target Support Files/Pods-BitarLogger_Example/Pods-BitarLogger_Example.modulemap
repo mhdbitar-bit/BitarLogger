@@ -1,0 +1,6 @@
+framework module Pods_BitarLogger_Example {
+  umbrella header "Pods-BitarLogger_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
