@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'BitarLogger_Example' do
+  pod 'BitarLogger', :path => '../'
+
+  target 'BitarLogger_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
