@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BitarLogger'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BitarLogger.'
+  s.summary          = 'Logger library for writing Hello world to the console'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,22 +18,22 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 'Logger library for writing Hello world to the console'
                        DESC
 
-  s.homepage         = 'https://github.com/18489523/BitarLogger'
+  s.homepage         = 'https://dev.azure.com/ircost/SV_SW_LSMAX/_git/clients.plib.ios'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '18489523' => 'eng.mhd.bitar@gmail.com' }
+  s.author           = { 'mhdbitar-bit' => 'eng.mhd.bitar@gmail.com' }
   s.source           = { :git => 'https://github.com/mhdbitar-bit/BitarLogger.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'BitarLogger/Classes/**/*'
+  s.swift_version = '5.0'
+  s.ios.deployment_target = '13.0'
+  
+  s.source_files = 'BitarLogger/BitarLogger/Classes/**/*.swift'
   
   # s.resource_bundles = {
-  #   'BitarLogger' => ['BitarLogger/Assets/*.png']
+  #   'BitarLogger' => ['BitarLogger/BitarLogger/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
