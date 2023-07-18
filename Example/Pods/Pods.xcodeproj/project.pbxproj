@@ -10,7 +10,7 @@
 		2087174559F4997684F7F91BF6A61EE0 /* Pods-BitarLogger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9EF2E3870DDBBA4F17388A5FACFE89 /* Pods-BitarLogger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		306C8EDF41706B1E366B9A45C965032F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		38A8B72BEA68D81D74D1035159A8A5B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4C47D1B42A6683290003D765 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C47D1B32A6683290003D765 /* Logger.swift */; };
+		4C47D1BA2A6684070003D765 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C47D1B92A6684070003D765 /* Logger.swift */; };
 		4EEB090657EA6231996702E251E6B9CC /* BitarLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8AEDCE60D6DEE097FC202BDEE1D8E0 /* BitarLogger-dummy.m */; };
 		798891A5EE5C22A42217E92C0732AB82 /* Pods-BitarLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F58EAD18983C85034B6676182BB8B67 /* Pods-BitarLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D80ECBE9788C1AC2772B2962901C85A /* BitarLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4CE5BC8BD77F50422023EB33828C7A /* BitarLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,7 +45,7 @@
 		4484910636886F127FB64CC1FFDE4484 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		49107A76BA7923DE641BC6716E035D4E /* Pods-BitarLogger_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BitarLogger_Tests"; path = Pods_BitarLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C205174B1EB4FA874B323E686DD3AE7 /* Pods-BitarLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitarLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4C47D1B32A6683290003D765 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		4C47D1B92A6684070003D765 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = BitarLogger/Classes/Logger.swift; sourceTree = "<group>"; };
 		4DD0754FF6EBA83B34378321553F65EB /* Pods-BitarLogger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BitarLogger_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4ED0FC2653EFE5B166C6A6BD80B20464 /* BitarLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BitarLogger.release.xcconfig; sourceTree = "<group>"; };
 		5EC671C4C377CC415C515B4F347EA3BB /* Pods-BitarLogger_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BitarLogger_Example"; path = Pods_BitarLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,9 +128,9 @@
 		6AE655265F72D82B18835333029463AC /* BitarLogger */ = {
 			isa = PBXGroup;
 			children = (
-				4C47D1B32A6683290003D765 /* Logger.swift */,
 				AF6884D204C57B350814C60C5A5F92B9 /* Pod */,
 				9C3F6ADAEEC68CA1C37C39309EB3D1C7 /* Support Files */,
+				4C47D1B92A6684070003D765 /* Logger.swift */,
 			);
 			name = BitarLogger;
 			path = ../..;
@@ -381,7 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EEB090657EA6231996702E251E6B9CC /* BitarLogger-dummy.m in Sources */,
-				4C47D1B42A6683290003D765 /* Logger.swift in Sources */,
+				4C47D1BA2A6684070003D765 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
